@@ -12,12 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val btn = findViewById<Button>(R.id.button)
 
-
         btn.setOnClickListener {
 
             val intent= Intent(this,com.pbs.paystub.WebView::class.java)
             startActivity(intent)
-
 
         }
     }
